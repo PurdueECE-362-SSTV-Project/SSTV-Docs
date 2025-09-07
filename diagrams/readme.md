@@ -12,8 +12,8 @@ Format
 
 ### Main Workflow
 <p align="center">
-  <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Main%20Project/SSTV%20Design%20Workflow.png">
-    <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Main%20Project/SSTV%20Design%20Workflow.png" width="550" alt="SSTV Design Workflow">
+  <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Core%20%7C%20OS/SSTV%20Design%20Workflow.png">
+    <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Core%20%7C%20OS/SSTV%20Design%20Workflow.png">
   </a>
   <br>
   SSTV Design Workflow
