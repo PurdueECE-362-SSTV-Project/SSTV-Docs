@@ -10,6 +10,7 @@ Format
 
 ## Images
 
+### Main Workflow
 <p align="center">
   <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/SSTV%20Design%20Workflow.png">
     <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/SSTV%20Design%20Workflow.png" width="400" alt="SSTV Design Workflow">
@@ -17,6 +18,8 @@ Format
   <br>
   SSTV Design Workflow
 </p>
+
+### Menu UI
 
 <p align="center">
   <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/SSTV%20Menu%20UI%20Workflow.png">
