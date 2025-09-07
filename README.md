@@ -4,7 +4,7 @@ Documentation separate from code for meetings, plans, etc
 ---
 
 ## SSTV Design Workflow
-<p align="center"> <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Main%20Project/SSTV%20Design%20Workflow.png" width="550"> <br> 2 Phase Workflow </p>
+<p align="center"> <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Core%20%7C%20OS/SSTV%20Design%20Workflow.png" width="550"> <br> 2 Phase Workflow </p>
 
 ### Phase 1
 Phase 1 focuses on the barebone design of the SSTV
