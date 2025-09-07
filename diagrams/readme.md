@@ -1,5 +1,5 @@
 # Diagrams Raw
-Holds the link for all the RAW images for different documents. Compliled for ease of further documentation.
+Holds links for all the RAW images for different documents. Compliled for ease of further documentation.
 
 Format
 - Image
