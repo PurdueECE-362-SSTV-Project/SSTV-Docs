@@ -4,186 +4,186 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-15" value="message caller" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="12.5" y="10" width="267.5" height="190" as="geometry" />
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-15" value="message caller" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="16.25" y="10" width="267.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-2" value="FIFO Message Structure" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-15">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-2" value="FIFO Message Structure" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-15" vertex="1">
           <mxGeometry x="28.75" y="30" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-5" value="DestID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-2">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-5" value="DestID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-2" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-14" value="SourceID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-2">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-14" value="SourceID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-2" vertex="1">
           <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-7" value="data: &amp;lt;type&amp;gt;[num_messages]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-2">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-7" value="data: &amp;lt;type&amp;gt;[num_messages]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-2" vertex="1">
           <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-72" value="tail: reserved int value" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-2">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-72" value="tail: reserved int value" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-2" vertex="1">
           <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-18" value="Message Sending Interface" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-18" value="Message Sending Interface" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="340" width="400" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-17" target="53Xg-ep_AmrEtd5g-V71-10">
+        <mxCell id="a8zjXD4ZzgsRA2jW8SMA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-17" target="a8zjXD4ZzgsRA2jW8SMA-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-17" target="53Xg-ep_AmrEtd5g-V71-74">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-17" value="Sender Queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="53Xg-ep_AmrEtd5g-V71-18" vertex="1">
+          <mxGeometry x="90" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-10" target="53Xg-ep_AmrEtd5g-V71-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-17" value="Sender Queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
-          <mxGeometry x="90" y="80" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-10" target="53Xg-ep_AmrEtd5g-V71-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-29" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-28">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-29" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-28" vertex="1" connectable="0">
           <mxGeometry x="-0.2414" y="-1" relative="1" as="geometry">
             <mxPoint x="-14" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-10" value="Has all data been consumed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
-          <mxGeometry x="52.5" y="210" width="135" height="120" as="geometry" />
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-10" value="Has all data been consumed?" style="rhombus;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" vertex="1">
+          <mxGeometry x="52.5" y="220" width="135" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-8" target="53Xg-ep_AmrEtd5g-V71-91">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-8" target="53Xg-ep_AmrEtd5g-V71-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-8" value="Push to fifo queue timeout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-8" value="Push to fifo queue timeout" style="rounded=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" vertex="1">
           <mxGeometry x="60" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-10" target="53Xg-ep_AmrEtd5g-V71-8">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-10" target="53Xg-ep_AmrEtd5g-V71-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-26" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-13">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-26" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-13" vertex="1" connectable="0">
           <mxGeometry x="-0.1714" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-27" value="Return to the main loop" style="whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
-          <mxGeometry x="260" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-27" value="Return to the main loop" style="whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" vertex="1">
+          <mxGeometry x="260" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-74" value="Currently selected element, head (in case of failure)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
-          <mxGeometry x="260" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-91" target="53Xg-ep_AmrEtd5g-V71-10">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-91" target="53Xg-ep_AmrEtd5g-V71-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-91" target="53Xg-ep_AmrEtd5g-V71-98">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-91" target="53Xg-ep_AmrEtd5g-V71-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-102" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-101">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-102" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-101" vertex="1" connectable="0">
           <mxGeometry x="0.2571" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-91" value="Was the timeout reached?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-91" value="Was the timeout reached?" style="rhombus;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" vertex="1">
           <mxGeometry x="40" y="490" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-98" value="Sender Main loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-98" value="Sender Main loop" style="rounded=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-18" vertex="1">
           <mxGeometry x="270" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-91" target="53Xg-ep_AmrEtd5g-V71-17">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="53Xg-ep_AmrEtd5g-V71-18" source="53Xg-ep_AmrEtd5g-V71-91" target="a8zjXD4ZzgsRA2jW8SMA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-104" value="place message&amp;nbsp;&lt;div&gt;back to queue head&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-103">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-104" value="place message&amp;nbsp;&lt;div&gt;back to queue head&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-103" vertex="1" connectable="0">
           <mxGeometry x="-0.6185" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-79" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" target="53Xg-ep_AmrEtd5g-V71-17">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-79" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" parent="53Xg-ep_AmrEtd5g-V71-18" target="53Xg-ep_AmrEtd5g-V71-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="420" as="sourcePoint" />
             <mxPoint x="160" y="141.81818181818176" as="targetPoint" />
             <Array as="points">
               <mxPoint x="240" y="420" />
               <mxPoint x="240" y="310" />
-              <mxPoint x="240" y="200" />
+              <mxPoint x="240" y="156" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-80" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-79">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-80" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-79" vertex="1" connectable="0">
           <mxGeometry x="0.5157" y="-2" relative="1" as="geometry">
             <mxPoint x="208" y="178" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-81" value="doorbell interrupt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-79">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-81" value="doorbell interrupt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-79" vertex="1" connectable="0">
           <mxGeometry x="0.1848" relative="1" as="geometry">
-            <mxPoint x="40" y="29" as="offset" />
+            <mxPoint x="40" y="64" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-19" value="Transfer Routine (direct or DMA?)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="86.25" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-2" target="53Xg-ep_AmrEtd5g-V71-19">
+        <mxCell id="a8zjXD4ZzgsRA2jW8SMA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-18" source="a8zjXD4ZzgsRA2jW8SMA-1" target="53Xg-ep_AmrEtd5g-V71-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-21" value="Interrupt Mechanism&lt;div&gt;(low priority to prevent system lockups)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a8zjXD4ZzgsRA2jW8SMA-1" value="Unravel Queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-18">
+          <mxGeometry x="60" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-19" value="Transfer Routine (direct or DMA?)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="53Xg-ep_AmrEtd5g-V71-2" target="53Xg-ep_AmrEtd5g-V71-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-21" value="Interrupt Mechanism&lt;div&gt;(low priority to prevent system lockups)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-19" target="53Xg-ep_AmrEtd5g-V71-21">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-19" target="53Xg-ep_AmrEtd5g-V71-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="380" as="sourcePoint" />
             <mxPoint x="640" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-19" target="53Xg-ep_AmrEtd5g-V71-17">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-19" target="53Xg-ep_AmrEtd5g-V71-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="490" as="sourcePoint" />
             <mxPoint x="340" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-17" target="53Xg-ep_AmrEtd5g-V71-21">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-17" target="53Xg-ep_AmrEtd5g-V71-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="590" as="sourcePoint" />
             <mxPoint x="390" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-32" value="FIFO Sender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-32" value="FIFO Sender" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-32" target="53Xg-ep_AmrEtd5g-V71-35">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-32" target="53Xg-ep_AmrEtd5g-V71-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="690" as="sourcePoint" />
             <mxPoint x="630" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-35" value="FIFO Receiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-35" value="FIFO Receiver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-36" value="Message Receiving Interface" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-36" value="Message Receiving Interface" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="340" width="510" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-47" value="FIFO Interrupt (high priority to ensure throughput is consistent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-36">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-47" value="FIFO Interrupt (high priority to ensure throughput is consistent)" style="rounded=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" vertex="1">
           <mxGeometry x="350" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-50" target="53Xg-ep_AmrEtd5g-V71-57">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-50" target="53Xg-ep_AmrEtd5g-V71-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-50" target="53Xg-ep_AmrEtd5g-V71-77">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-50" target="53Xg-ep_AmrEtd5g-V71-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-50" value="Read from fifo buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-36">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-50" value="Read from fifo buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" vertex="1">
           <mxGeometry x="170" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-47" target="53Xg-ep_AmrEtd5g-V71-50">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-47" target="53Xg-ep_AmrEtd5g-V71-50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="620" as="sourcePoint" />
             <mxPoint x="360" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-56" value="Routing Interface" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-36">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-56" value="Routing Interface" style="swimlane;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" vertex="1">
           <mxGeometry x="20" y="30" width="270" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-54" value="Receiver Queue (main loop)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-56">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-54" value="Receiver Queue (main loop)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="53Xg-ep_AmrEtd5g-V71-56" vertex="1">
           <mxGeometry x="30" y="50" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-55" value="Receiver Queue (some isr)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-56">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-55" value="Receiver Queue (some isr)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="53Xg-ep_AmrEtd5g-V71-56" vertex="1">
           <mxGeometry x="160" y="50" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-57" target="53Xg-ep_AmrEtd5g-V71-54">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-57" target="53Xg-ep_AmrEtd5g-V71-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-57" target="53Xg-ep_AmrEtd5g-V71-55">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-57" target="53Xg-ep_AmrEtd5g-V71-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="215" y="240" />
@@ -191,64 +191,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-57" value="establish channel to receiver queue of matching ID to header until tail is received" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-36">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-57" value="establish channel to receiver queue of matching ID to header until tail is received" style="rounded=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" vertex="1">
           <mxGeometry x="170" y="260" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-62" value="Trigger any assigned interrupt to run handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-36">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-62" value="Trigger any assigned interrupt to run handler" style="rounded=0;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" vertex="1">
           <mxGeometry x="350" y="275" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-63" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-57" target="53Xg-ep_AmrEtd5g-V71-62">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-63" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-57" target="53Xg-ep_AmrEtd5g-V71-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="340" as="sourcePoint" />
             <mxPoint x="580" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-77" target="53Xg-ep_AmrEtd5g-V71-50">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="53Xg-ep_AmrEtd5g-V71-36" source="53Xg-ep_AmrEtd5g-V71-77" target="53Xg-ep_AmrEtd5g-V71-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-85" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-84">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-85" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-84" vertex="1" connectable="0">
           <mxGeometry x="-0.299" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-77" value="Is the queue empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="53Xg-ep_AmrEtd5g-V71-36">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-77" value="Is the queue empty?" style="rhombus;whiteSpace=wrap;html=1;" parent="53Xg-ep_AmrEtd5g-V71-36" vertex="1">
           <mxGeometry x="20" y="390" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-35" target="53Xg-ep_AmrEtd5g-V71-47">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-35" target="53Xg-ep_AmrEtd5g-V71-47" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="690" as="sourcePoint" />
             <mxPoint x="650" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-35" target="53Xg-ep_AmrEtd5g-V71-50">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-53" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-35" target="53Xg-ep_AmrEtd5g-V71-50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="690" as="sourcePoint" />
             <mxPoint x="650" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-64" value="Main loop task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-64" value="Main loop task" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="485" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-54" target="53Xg-ep_AmrEtd5g-V71-64">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="53Xg-ep_AmrEtd5g-V71-54" target="53Xg-ep_AmrEtd5g-V71-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-66" value="Consume" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-65">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-66" value="Consume" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-65" vertex="1" connectable="0">
           <mxGeometry x="0.4476" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-67" value="ISR Task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-67" value="ISR Task" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-55" target="53Xg-ep_AmrEtd5g-V71-67">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="53Xg-ep_AmrEtd5g-V71-55" target="53Xg-ep_AmrEtd5g-V71-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-69" value="Consume" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-68">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-69" value="Consume" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-68" vertex="1" connectable="0">
           <mxGeometry x="0.4667" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-70" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-62" target="53Xg-ep_AmrEtd5g-V71-67">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-70" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-62" target="53Xg-ep_AmrEtd5g-V71-67" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="970" y="520" as="sourcePoint" />
             <mxPoint x="780" y="170" as="targetPoint" />
@@ -257,10 +257,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-86" value="The receiver should just&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-86" value="The receiver should just consume everyhting&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-77" target="53Xg-ep_AmrEtd5g-V71-64">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-77" target="53Xg-ep_AmrEtd5g-V71-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="280" as="targetPoint" />
             <Array as="points">
@@ -269,23 +269,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-89" value="return to main loop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-88">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-89" value="return to main loop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-88" vertex="1" connectable="0">
           <mxGeometry x="0.599" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-91" target="53Xg-ep_AmrEtd5g-V71-32">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="53Xg-ep_AmrEtd5g-V71-91" target="53Xg-ep_AmrEtd5g-V71-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-93" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53Xg-ep_AmrEtd5g-V71-92">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-93" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53Xg-ep_AmrEtd5g-V71-92" vertex="1" connectable="0">
           <mxGeometry x="-0.1193" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-105" value="Backup Watchdog Timer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-105" value="Backup Watchdog Timer (long period)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53Xg-ep_AmrEtd5g-V71-106" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="53Xg-ep_AmrEtd5g-V71-17" target="53Xg-ep_AmrEtd5g-V71-105">
+        <mxCell id="53Xg-ep_AmrEtd5g-V71-106" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="53Xg-ep_AmrEtd5g-V71-17" target="53Xg-ep_AmrEtd5g-V71-105" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-210" y="720" as="sourcePoint" />
             <mxPoint x="-160" y="670" as="targetPoint" />
