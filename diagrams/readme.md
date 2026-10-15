@@ -1,48 +1,45 @@
-# Diagrams Raw
-Holds links for all the RAW images for different documents. Compliled for ease of further documentation.
+# Diagrams
 
-Format
-- Image
-- Title
-- Link
+Architecture and interface diagrams for the SSTV receiver. See the [project overview](../README.md) for how these fit together.
 
----
+***
 
-## Images
-
-### Main Workflow
-<p align="center">
-  <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Core%20%7C%20OS/SSTV%20Design%20Workflow.png">
-    <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Core%20%7C%20OS/SSTV%20Design%20Workflow.png">
-  </a>
-  <br>
-  SSTV Design Workflow
-</p>
-
-## OS
+## Development Workflow
 
 <p align="center">
-  <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Core%20%7C%20OS/RTOS%20Workflow.png">
-    <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Core%20%7C%20OS/RTOS%20Workflow.png" width="550" alt="RTOS Workflow">
-  </a>
-  <br>
-  RTOS Workflow
+  <img src="Core%20&%20OS/images/SSTV%20Design%20Workflow.png" width="650">
 </p>
 
-### Menu UI
+The two-phase plan. Phase 1 builds a working receiver end to end. Phase 2 adds storage, power management, and a refined interface.
 
-<p align="center">
-  <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Display%20%7C%20Menu/SSTV%20Menu%20UI%20Workflow.png">
-    <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Display%20%7C%20Menu/SSTV%20Menu%20UI%20Workflow.png" width="550" alt="SSTV Menu UI Workflow">
-  </a>
-  <br>
-  SSTV Menu UI Workflow
-</p>
+***
+
+## Software Structure
 
 <p align="center">
-  <a href="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Display%20%7C%20Menu/SSTV%20Menu%20UI%20Implementation.png">
-    <img src="https://github.com/PurdueECE-362-SSTV-Project/SSTV-Docs/blob/main/diagrams/Display%20%7C%20Menu/SSTV%20Menu%20UI%20Implementation.png" width="550" alt="SSTV Menu UI Implementation">
-  </a>
-  <br>
-  SSTV Menu UI Implementation
+  <img src="Core%20&%20OS/images/RTOS%20Workflow.png" width="560">
 </p>
+
+The originally planned operating system layer, in which tasks would reach peripherals through a scheduler running across both cores. This approach was later replaced by a messaging layer written directly against the hardware.
+
+***
+
+## Display and Menu
+
+<p align="center">
+  <img src="Display%20&%20Menu/SSTV%20Menu%20UI%20Workflow.png" width="620">
+</p>
+
+How the interface moves between screens, from the boot screen through image display, frequency entry, settings, and storage.
+
+<p align="center">
+  <img src="Display%20&%20Menu/SSTV%20Menu%20UI%20Implementation.png" width="620">
+</p>
+
+Layouts for the individual screens, including live image view, frequency tuning, the saved image gallery, and the station list.
+
+***
+
+## Enclosure
+
+Enclosure models and turntable views are in [CADs & PCBs](CADs%20&%20PCBs/readme.md).

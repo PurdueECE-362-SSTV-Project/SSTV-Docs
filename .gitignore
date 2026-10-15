@@ -56,3 +56,14 @@ dkms.conf
 
 # drawio
 *.bkp
+
+# local
+/Other_Repos/
+
+# CAD source renders (keep the exported gif, not the raw video)
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wmv
